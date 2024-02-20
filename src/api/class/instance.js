@@ -127,6 +127,7 @@ class WhatsAppInstance {
                     }).exec()
                     if (!alreadyThere) {
                         const saveChat = new Chat({ key: this.key })
+                        console.log(saveChat, 'Chat Save')
                         await saveChat.save()
                     }
                 }

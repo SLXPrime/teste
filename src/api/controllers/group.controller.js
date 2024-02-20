@@ -39,6 +39,7 @@ exports.listAll = async (req, res) => {
 
 exports.leaveGroup = async (req, res) => {
     const data = await WhatsAppInstances[req.query.key].leaveGroup(req.query.id)
+    console.log(req)
     return res.status(201).json({ error: false, data: data })
 }
 
