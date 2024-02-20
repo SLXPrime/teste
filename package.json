@@ -4,7 +4,7 @@
     "description": "whatsapp-api-nodejs is builton top of Baileys-MD.",
     "main": "server.js",
     "engines": {
-        "node":">= 18.19.0"
+        "node":"18.19.0"
     },
     "scripts": {
         "start": "node src/server.js",
